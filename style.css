@@ -1,0 +1,10 @@
+
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  background: linear-gradient(#ea6c6c, #9198e5);
+  font-family: "Gill Sans", sans-serif;
+  color: white;
+}

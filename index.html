@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title> *Schedule* </title>
+</head>
+<body>
+
+  <script src="function.js"></script>
+  
+    <fieldset>
+    <legend> <h1>Schedule</h1> </legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" maxlength="50" required>
+    <br>
+    <br>
+    <label for="tel">Phone:</label>
+    <input type="tel" id="tel" name="tel" required>
+    <br>
+    <br>
+    <button onclick="saveContact()">Save</button>
+    <button onclick="clearForm()">Clear</button>
+    <br>
+    </fieldset>  
+    <br>
+    <label for="contactSaved">Contacts:</label>
+    <br>
+    <textarea id="result" name="result"
+    rows="10" cols="40"></textarea>
+</body>
+</html>
